@@ -25,23 +25,30 @@ export default function HomePage() {
     message: "",
   });
 
-  const projects: Project[] = [
+const projects: Project[] = [
     {
       id: 1,
-      title: "Mortuary Management System",
+      title: "Cloey AI friend",
       description:
-        "A system to manage mortuary records and operations efficiently.",
-      tech: ["React", "Node.js", "MongoDB"],
-      link: "https://github.com/james1478/mortuary-management-system",
+        "Cloey — an AI-powered digital companion prototype blending cultural storytelling and conversational AI.",
+      tech: ["React", "Google-ai-sdk", "Node.js", "Tailwind"],
+      link: "https://github.com/james1478/Cloey_AI_Girl_Frontend",
     },
-
     {
-      id: 4,
+      id: 2,
       title: "DApp Blockchain Smart Contract with Ethereum and Solidity",
       description:
         "Blockchain Project that uses testnet to deploy smart contracts.",
       tech: ["React", "Node.js", "MongoDB"],
       link: "https://github.com/james1478/bit-kca-smartContract-and-frontend",
+    },
+    {
+      id: 3,
+      title: "Mortuary Management System",
+      description:
+        "A system to manage mortuary records and operations efficiently.",
+      tech: ["React", "Node.js", "MongoDB"],
+      link: "https://github.com/james1478/mortuary-management-system",
     },
   ];
 
